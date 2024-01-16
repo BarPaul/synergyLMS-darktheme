@@ -167,12 +167,3 @@ code {
 	text-shadow: none;
   color: #ccc;
 }
-
-*[style*='color: rgba(0, 0, 0, 0.85)'] {
-  color: var(--color-text-main);
-}
-
-div[style*='background: cornsilk'] {
-  background: var(--second-bg);
-  border: none;
-}
