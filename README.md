@@ -17,6 +17,6 @@
 <p>6. Ниже поля "Enter URL" вставьте скопированное содержимое</p>
 <details>
   <summary>Должно получится примерно так</summary>
-  <img src="./resources/correct_settings.png">
+  <img src="./resources/correct-settings.png">
 </details>
 <p>7. Нажмите на кнопку "Сохранить"</p>
