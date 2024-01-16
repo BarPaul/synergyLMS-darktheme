@@ -1,0 +1,175 @@
+:root {
+	--main-bg: #181818;
+	--second-bg: #1F1F1F;
+	--hover-bg: #2A2D2E;
+  
+  --color-theme-logo: #E22445;
+	--color-text-heading: white;
+	--color-text-main: #8B949E;
+	--color-text-control: #ebebeb;
+	--color-separator: #2A2A2A;
+	--color-indicator-dark-grey: #53585c;
+  --color-background-menu: var(--second-bg);
+}
+
+
+.n-pop-up__container {
+  background-color: var(--hover-bg);
+  color: var(--color-separator)
+}
+
+div.drop-menu,
+div.drop-menu-label,
+div.multi-ac-values span,
+.ui-datepicker,
+#studentSchedulerDisc,
+.bg-white,
+.newPopup div,
+.errorContainer,
+.form div.block,
+.filter.clearfix,
+div.sf-item div,
+#mcSendMessage,
+#descriptions_ifr,
+body {
+  background-color: var(--color-background-menu);
+  border-color: var(--color-theme-logo);
+}
+
+.table-list tbody tr td,
+.table-list.table-corpus.table-options.v-scrollable tbody tr td,
+#dictionaryTable tr {
+  background-color: var(--hover-bg);
+}
+
+select option,
+select {
+  color: var(--color-text-control);
+  background-color: var(--hover-bg);
+}
+
+.ui-datepicker-calendar thead th span {
+  color: var(--color-separator)
+}
+
+.ui-datepicker-header {
+  filter: invert(1);
+}
+
+::-webkit-scrollbar {
+	width: .5rem;
+}
+
+.form {
+  background-color: var(--hover-bg);
+  border-color: var(--color-theme-logo);
+}
+
+div.item h3,
+div.item .title,
+.save_data span,
+.ui-datepicker-calendar,
+small {
+  color: var(--color-text-control)
+}
+
+label.label,
+h5.info-title,
+#user-greeting span,
+.n-pop-up__header span {
+  color: var(--color-theme-logo)
+}
+
+tbody tr.semtab td {
+  background-color: var(--second-bg)
+}
+
+td.result_color {
+  color: var(--main-bg)
+}
+
+td.result_color a {
+  color: var(--color-header-partial-accepted)
+}
+
+div.gradient,
+div.user-name::after {
+  display: none;
+}
+
+.tabs .item, 
+th {
+  color: var(--main-bg) !important;
+  border: 0;
+  background-color: var(--color-theme-logo)
+}
+
+
+::-webkit-scrollbar-thumb {
+	background-color: #2f3133;
+}
+
+::selection {
+	background: #343a40;
+}
+
+.user-name, 
+div.frame-content.active,
+body.headerSimple,
+div.contentBoxBottom.iePNG,
+ul li a,
+ul li,
+div#footer,
+td.border_right,
+.form.grade_form {
+  background-color: var(--main-bg) !important;
+}
+
+.info-panel,
+div.form.grade_form div.section2.smaller,
+.filter.form {
+  background-color: var(--color-separator) !important;
+  border: 5px !important;
+  border-color: var(--color-theme-logo) !important;
+  border-radius: 5px !important;
+}
+
+h1, h2, h3,
+.filter.form h3 {
+  color: var(--color-theme-logo) !important;
+}
+
+
+p, span, a, div.curatorPanelBlock, div {
+  color: var(--color-text-main);
+}
+
+textarea, input {
+  color: white;
+  background-color: var(--second-bg);
+  border: none;
+  box-shadow: none;
+  padding-left: .7rem;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #c8c8c8;
+}
+
+code {
+	text-shadow: none;
+  color: #ccc;
+}
+
+*[style*='color: rgba(0, 0, 0, 0.85)'] {
+  color: var(--color-text-main);
+}
+
+div[style*='background: cornsilk'] {
+  background: var(--second-bg);
+  border: none;
+}
