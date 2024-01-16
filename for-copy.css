@@ -4,14 +4,15 @@
 	--hover-bg: #2A2D2E;
   
   --color-theme-logo: #E22445;
-	--color-text-heading: white;
 	--color-text-main: #8B949E;
 	--color-text-control: #ebebeb;
 	--color-separator: #2A2A2A;
-	--color-indicator-dark-grey: #53585c;
   --color-background-menu: var(--second-bg);
 }
 
+.corner:before {
+  border-color: transparent transparent var(--hover-bg) transparent;
+}
 
 .n-pop-up__container {
   background-color: var(--hover-bg);
