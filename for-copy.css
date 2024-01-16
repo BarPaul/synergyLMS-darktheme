@@ -37,7 +37,7 @@ body {
   border-color: var(--color-theme-logo);
 }
 
-.table-list tbody tr td,
+.table-list:not(.dataTable) tbody tr td,
 .table-list.table-corpus.table-options.v-scrollable tbody tr td,
 #dictionaryTable tr {
   background-color: var(--hover-bg);
@@ -92,6 +92,8 @@ td.result_color {
 td.result_color a {
   color: var(--color-header-partial-accepted)
 }
+
+
 
 div.gradient,
 div.user-name::after {
